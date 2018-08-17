@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CUKCUK.VN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                    <span><img class="logo_img" src="./static/img/logoCukCuk.png"></span>
+            </div>
+            <div>
+                    <select class="col-md-5 col-sm-6 select_lang ">
+                        <option>Tiếng Việt (Vietnamesisch)</option>
+                        <option>English (Enlish)</option>
+                        <option>Deutsch (German)</option>
+                    </select>
+            </div>
+        </div>
+        
+    </div>
+    <div class="land">
+        <div class="login-land">
+            <div class="login-ava"><img src="./static/img/bgLogin.png"></div>
+            <div class="login-box">
+                <h3><b>LOGIN CUKCUK.VN</b></h3>
+                <p  style="color: red" id="notice-name"></p>
+                <p  style="color: red" id="notice-password"></p>
+                <table>
+                    <tr>
+                        <td><b>User name</b></td>
+                        <td>
+                            <div class="border-td" id="user_name_div">
+                                <span style="margin-left: 2px;" class="glyphicon glyphicon-user"></span>
+                                <input id="username" placeholder="Benutzername / Telefon / E-Mail" name="user_name" onfocus="namefocus()">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Password</b></td>
+                        <td>
+                            <div class="border-td" id="user_password_div">
+                                <span style="margin-left: 2px;" class="glyphicon glyphicon-lock"></span>
+                                <input id="password" placeholder="password" name="user_password" onfocus="passwordfocus()">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btnlogin" type="submit" ><h4><b>LOGIN</b></h4></button></td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td><div id="forgot-password"><a href="#">Passwort vergessen?</a></div></td>
+                        </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+            <div class="hotline-support">
+                <!-- <span class="callcenter"></span> -->
+                <!-- <span class="callcenter"><img src="icon-support.png"></span> -->
+                <span class="callcenter"><b>Hotline 1900 8677</b></span>
+                <a class="support"><b>Email: support@misa.com.vn    </b></a>
+                <a class="help"><b>Help</b></a>
+            </div>
+            <div class="time-work">
+                <span>Öffnungszeiten: Mon-Fri: 7:30 - 22:00,<br>
+                        Sat, Sun: 8:00 - 12:00; 13:30 - 22:00</span>
+            </div>
+            <div class="copyright">
+                <div>
+                    <span>Copyright © 2015 - 2018 MISA JSC</span>
+                    <a> www.misa.com.vn</a>
+                </div>
+            </div>
+    </div>
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/login.js"></script>
+</body>
+</html>
